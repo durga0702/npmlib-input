@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo-app';
+  getTypedValue(data:any){
+    console.log(data);
+  }
 }
